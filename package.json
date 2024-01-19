@@ -1,0 +1,25 @@
+{
+  "name": "08.passport.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install node && npm install ejs&&npm install express&&npm install mongoose&&npm install express-ejs-layouts&&npm install cookie-parser&&npm install passport&&npm install passport-local&&npm install express-session&&npm install connect-mongo",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akash Kumar Parida",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.1",
+    "node": "^19.6.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
+

@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/css/signup.css">
+<div id="iconaboveform">
+    <img src="/icon/signUp/signuplogo.svg" id="signupuser" alt="">
+    <img src="/icon/signUp/Line 1.svg" id="line1" alt="">
+    <img src="/icon/signUp/user.svg" id="usericon" alt="">
+    <img src="/icon/signUp/Line 2.svg" id="line2" alt="">
+    <img src="/icon/signUp/vuser.svg" id="vuser" alt="">
+</div>
+<form action="/User/create" method="POST">
+    <input type="text" name="name" placeholder="Name" class="TextField subtitle" required>
+    <input type="email" name="email" placeholder="Email" class="TextField subtitle" required>
+    <input type="password" name="password" placeholder="Password" class="TextField subtitle" required>
+    <input type="password" name="repassword" placeholder="Confirm Password" class="TextField subtitle" required>
+    <button type="submit" class="primary btn subtitle">Sign Up</button>
+</form>
+<p id="haveacc" class="bodytext">Already have an account? <a href="/User/SignIn" class="link">Sign in</a> </p>

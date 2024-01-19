@@ -1,0 +1,111 @@
+/* Line 1 */
+
+#line1 {
+  /* position: absolute; */
+  width: 40%;
+  height: 0px;
+
+
+  border: 1px dashed #a6a4a4;
+}
+
+#signupuser{
+    z-index: 1;
+}
+
+#line1b {
+  position: absolute;
+  left: 8%;
+  width: 42%;
+  height: 0px;
+  border: 1px solid #1302BE;
+}
+
+#line2b {
+    position: absolute;
+    left: 40%;
+    width: 0%;
+    height: 0px;
+    animation: line2bani 2s ease-in-out;
+    animation-fill-mode: forwards;
+    border: 1px solid #1302BE;
+}
+
+.line1bani{
+    animation: line1bani 2s ease-in-out;
+}
+
+@media screen and (min-width: 500px) {
+    #line2b{
+        left: 49%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #line2b{
+        left: 40%;
+    }
+}
+
+@keyframes line1bani{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:42%;
+    }
+}
+@keyframes line2bani{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:42%;
+    }
+}
+
+
+/* Line 2 */
+
+#line2 {
+  /* position: absolute; */
+  width: 40%;
+  height: 0px;
+
+
+  border: 1px dashed #a6a4a4;
+}
+
+#iconaboveform {
+  margin-top: 80px;
+  margin-bottom: 16px;
+  padding: 20px;
+  position: relative;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+
+}
+
+form input::placeholder {
+
+}
+
+form button{
+    margin-top: 14px;
+}
+
+#haveacc{
+    text-align: center;
+}
